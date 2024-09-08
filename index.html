@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lugares para viajar</title>
+</head>
+<body>
+
+    <!-- cabeçalho -->
+    <header>
+        <h1>Lugares para viajar</h1>
+    </header>
+
+    <!-- a estrutura mais importante da página -->
+    <main>
+        <section>
+            <input type="text" placeholder="Digite um nome" id="campo-pesquisa">
+            <button onclick = "pesquisar()"> Pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa">
+
+            <!-- <div class="item-resultado">  
+
+            // mostra o titulo com o link com mais informações
+            <h2> 
+            <a href=${dado.link}  target="_blank">${dado.titulo}</a>
+            </h2>
+    
+            // mostra a descrição
+            <p class="descricao-meta">${dado.descricao}</p>
+    
+            // mostra o clima, e a tag strong deixa a palavra em negrito
+            <p class="descricao-meta"><strong>Clima: </strong>${dado.clima}</p>
+
+            </div> -->
+        
+        </section>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+        <p>2024 - Imersão Alura com Gemini</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script> 
+    <!-- é uma boa prática colocar no final, pois o html e css é carregado antes do js -->
+
+</body>
+</html>
